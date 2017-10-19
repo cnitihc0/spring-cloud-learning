@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/trans-eureka/eureka-server.iml" filepath="$PROJECT_DIR$/trans-eureka/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-service.iml" filepath="$PROJECT_DIR$/micro-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trans-service-customer-feign/trans-service-customer-feign.iml" filepath="$PROJECT_DIR$/trans-service-customer-feign/trans-service-customer-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trans-service-customer-ribbon/trans-service-customer-ribbon.iml" filepath="$PROJECT_DIR$/trans-service-customer-ribbon/trans-service-customer-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trans-service-productor-eureka/trans-service-productor-eureka.iml" filepath="$PROJECT_DIR$/trans-service-productor-eureka/trans-service-productor-eureka.iml" />
+    </modules>
+  </component>
+</project>
