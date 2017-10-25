@@ -2,47 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1d83a72-7b44-4fd2-aeb4-1bdd5ed151c7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_8_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_animal_sniffer_annotation_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_2_1_1.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_autoscaling_1_11_98.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_core_1_11_98.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_ec2_1_11_98.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_route53_1_11_98.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_sts_1_11_98.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_jmespath_java_1_11_98.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_8_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__software_amazon_ion_ion_java_1_0_2.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/trans_service_customer_feign_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/trans_service_customer_feign_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/trans_service_customer_ribbon_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/trans_service_customer_ribbon_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/trans-eureka/target/classes/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/trans-eureka/target/classes/com/spring/cloud/EurekaserverApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/trans-eureka/target/test-classes/com/spring/cloud/AppTest.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trans-service-customer-feign/trans-service-customer-feign.iml" afterPath="$PROJECT_DIR$/trans-service-customer-feign/trans-service-customer-feign.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trans-service-customer-ribbon/trans-service-customer-ribbon.iml" afterPath="$PROJECT_DIR$/trans-service-customer-ribbon/trans-service-customer-ribbon.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-eureka/eureka-server.iml" afterPath="$PROJECT_DIR$/trans-eureka-server/trans-eureka-server.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-eureka/pom.xml" afterPath="$PROJECT_DIR$/trans-eureka-server/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-eureka/src/main/java/com/spring/cloud/EurekaserverApplication.java" afterPath="$PROJECT_DIR$/trans-eureka-server/src/main/java/com/spring/cloud/EurekaserverApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-eureka/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/trans-eureka-server/src/main/resources/application.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-eureka/src/test/java/com/spring/cloud/AppTest.java" afterPath="$PROJECT_DIR$/trans-eureka-server/src/test/java/com/spring/cloud/AppTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-eureka/target/classes/application.properties" afterPath="$PROJECT_DIR$/trans-eureka-server/target/classes/application.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-eureka/target/classes/com/spring/cloud/EurekaserverApplication.class" afterPath="$PROJECT_DIR$/trans-eureka-server/target/classes/com/spring/cloud/EurekaserverApplication.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-eureka/target/eureka-server-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/trans-eureka-server/target/eureka-server-1.0-SNAPSHOT.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-eureka/target/eureka-server-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/trans-eureka-server/target/eureka-server-1.0-SNAPSHOT.jar.original" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-eureka/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/trans-eureka-server/target/maven-archiver/pom.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-eureka/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/trans-eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-eureka/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/trans-eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-eureka/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/trans-eureka-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-eureka/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/trans-eureka-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-eureka/target/surefire-reports/TEST-com.spring.cloud.AppTest.xml" afterPath="$PROJECT_DIR$/trans-eureka-server/target/surefire-reports/TEST-com.spring.cloud.AppTest.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-eureka/target/surefire-reports/com.spring.cloud.AppTest.txt" afterPath="$PROJECT_DIR$/trans-eureka-server/target/surefire-reports/com.spring.cloud.AppTest.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-eureka/target/test-classes/com/spring/cloud/AppTest.class" afterPath="$PROJECT_DIR$/trans-eureka-server/target/test-classes/com/spring/cloud/AppTest.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-eureka/trans-eureka.iml" afterPath="$PROJECT_DIR$/trans-eureka-server/trans-eureka.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trans-eureka-server/trans-eureka-server.iml" afterPath="$PROJECT_DIR$/trans-eureka-server/trans-eureka-server.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/trans-service-productor-eureka/target/" />
@@ -66,7 +30,28 @@
     <favorites_list name="micro-service" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="trans-eureka-server.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trans-eureka-server/trans-eureka-server.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -104,6 +89,7 @@
         <option value="$PROJECT_DIR$/trans-service-customer-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/trans-service-customer-ribbon/src/main/java/com/spring/cloud/service/HelloService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/trans-eureka-server/trans-eureka-server.iml" />
       </list>
     </option>
   </component>
@@ -147,11 +133,6 @@
             <path>
               <item name="micro-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-trans-dm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-trans-dm" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -798,12 +779,20 @@
       <workItem from="1508393608318" duration="2431000" />
       <workItem from="1508425781255" duration="1518000" />
       <workItem from="1508427354211" duration="24000" />
-      <workItem from="1508901511347" duration="214000" />
+      <workItem from="1508901511347" duration="477000" />
     </task>
+    <task id="LOCAL-00001" summary="修改项目名称">
+      <created>1508901758305</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1508901758305</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11071000" />
+    <option name="totallyTimeSpent" value="11334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -855,6 +844,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改项目名称" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改项目名称" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1161,14 +1154,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trans-eureka-server/trans-eureka-server.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1233,10 +1218,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/trans-eureka-server/trans-eureka-server.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        <state relative-caret-position="100">
+          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="27" />
           <folding />
         </state>
       </provider>
