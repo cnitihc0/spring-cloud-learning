@@ -13,6 +13,7 @@
         <module>trans-service-customer-ribbon</module>
         <module>trans-service-customer-feign</module>
         <module>trans-service-productor-eureka</module>
+        <module>trans-config-server</module>
     </modules>
 
     <properties>

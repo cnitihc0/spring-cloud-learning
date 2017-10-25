@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/micro-service.iml" filepath="$PROJECT_DIR$/micro-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trans-config-server/trans-config-server.iml" filepath="$PROJECT_DIR$/trans-config-server/trans-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/trans-eureka-server/trans-eureka-server.iml" filepath="$PROJECT_DIR$/trans-eureka-server/trans-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/trans-service-customer-feign/trans-service-customer-feign.iml" filepath="$PROJECT_DIR$/trans-service-customer-feign/trans-service-customer-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/trans-service-customer-ribbon/trans-service-customer-ribbon.iml" filepath="$PROJECT_DIR$/trans-service-customer-ribbon/trans-service-customer-ribbon.iml" />
