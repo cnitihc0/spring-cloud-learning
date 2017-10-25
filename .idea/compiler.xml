@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
+        <module name="trans-eureka-server" />
         <module name="trans-service-customer-feign" />
         <module name="trans-service-customer-ribbon" />
         <module name="trans-service-productor-eureka" />
@@ -15,6 +16,7 @@
     <bytecodeTargetLevel>
       <module name="eureka-server" target="1.8" />
       <module name="micro-service" target="1.8" />
+      <module name="trans-eureka-server" target="1.8" />
       <module name="trans-service-customer-feign" target="1.8" />
       <module name="trans-service-customer-ribbon" target="1.8" />
       <module name="trans-service-productor-eureka" target="1.8" />

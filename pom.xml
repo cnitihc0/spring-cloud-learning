@@ -9,7 +9,7 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>trans-eureka</module>
+        <module>trans-eureka-server</module>
         <module>trans-service-customer-ribbon</module>
         <module>trans-service-customer-feign</module>
         <module>trans-service-productor-eureka</module>
