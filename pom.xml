@@ -15,6 +15,7 @@
         <module>trans-service-productor-eureka</module>
         <module>trans-config-server</module>
         <module>trans-config-client</module>
+        <module>trans-service-zuul</module>
     </modules>
 
     <properties>

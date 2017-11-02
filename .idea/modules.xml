@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/trans-service-customer-feign/trans-service-customer-feign.iml" filepath="$PROJECT_DIR$/trans-service-customer-feign/trans-service-customer-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/trans-service-customer-ribbon/trans-service-customer-ribbon.iml" filepath="$PROJECT_DIR$/trans-service-customer-ribbon/trans-service-customer-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/trans-service-productor-eureka/trans-service-productor-eureka.iml" filepath="$PROJECT_DIR$/trans-service-productor-eureka/trans-service-productor-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trans-service-zuul/trans-service-zuul.iml" filepath="$PROJECT_DIR$/trans-service-zuul/trans-service-zuul.iml" />
     </modules>
   </component>
 </project>
