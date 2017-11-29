@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="trans-service-customer-ribbon:war">
-    <output-path>$PROJECT_DIR$/trans-service-customer-ribbon/target</output-path>
-    <root id="archive" name="trans-service-customer-ribbon-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="trans-service-customer-ribbon:war exploded" />
-    </root>
-  </artifact>
-</component>

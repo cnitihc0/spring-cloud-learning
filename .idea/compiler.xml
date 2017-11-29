@@ -6,26 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-server" />
-        <module name="trans-config-client" />
-        <module name="trans-config-server" />
-        <module name="trans-eureka-server" />
-        <module name="trans-service-customer-feign" />
-        <module name="trans-service-customer-ribbon" />
-        <module name="trans-service-productor-eureka" />
-        <module name="trans-service-zuul" />
+        <module name="spring-boot-config-client" />
+        <module name="spring-boot-config-server" />
+        <module name="spring-boot-eureka-customer-feign" />
+        <module name="spring-boot-eureka-customer-ribbon" />
+        <module name="spring-boot-eureka-productor" />
+        <module name="spring-boot-eureka-registrycenter" />
+        <module name="spring-boot-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="eureka-server" target="1.8" />
-      <module name="micro-service" target="1.8" />
-      <module name="trans-config-client" target="1.8" />
-      <module name="trans-config-server" target="1.8" />
-      <module name="trans-eureka-server" target="1.8" />
-      <module name="trans-service-customer-feign" target="1.8" />
-      <module name="trans-service-customer-ribbon" target="1.8" />
-      <module name="trans-service-productor-eureka" target="1.8" />
-      <module name="trans-service-zuul" target="1.8" />
+      <module name="spring-boot-config-client" target="1.8" />
+      <module name="spring-boot-config-server" target="1.8" />
+      <module name="spring-boot-eureka-customer-feign" target="1.8" />
+      <module name="spring-boot-eureka-customer-ribbon" target="1.8" />
+      <module name="spring-boot-eureka-productor" target="1.8" />
+      <module name="spring-boot-eureka-registrycenter" target="1.8" />
+      <module name="spring-boot-zuul" target="1.8" />
+      <module name="spring-cloud-learning" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
