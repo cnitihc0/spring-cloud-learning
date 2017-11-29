@@ -2,27 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f269740-a473-4b51-bbec-024df97d98b4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/trans_service_customer_feign_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/trans_service_customer_feign_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/trans_service_customer_ribbon_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/trans_service_customer_ribbon_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/micro-service.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-cloud-trans-dm.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/trans-config-client/trans-config-client.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/trans-config-server/trans-config-server.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/trans-eureka-server/trans-eureka-server.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/trans-eureka-server/trans-eureka.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/trans-service-customer-feign/trans-service-customer-feign.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/trans-service-customer-ribbon/trans-service-customer-ribbon.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/trans-service-productor-eureka/trans-service-productor-eureka.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/trans-service-zuul/trans-service-zuul.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" />
@@ -190,43 +169,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-config-client/pom.xml" afterPath="$PROJECT_DIR$/spring-boot-config-client/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-config-client/src/main/java/com/spring/cloud/ConfigClientApplication.java" afterPath="$PROJECT_DIR$/spring-boot-config-client/src/main/java/com/spring/cloud/ConfigClientApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-config-client/src/main/java/com/spring/cloud/controller/TestController.java" afterPath="$PROJECT_DIR$/spring-boot-config-client/src/main/java/com/spring/cloud/controller/TestController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-config-client/src/main/resources/bootstrap.properties" afterPath="$PROJECT_DIR$/spring-boot-config-client/src/main/resources/bootstrap.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-config-server/pom.xml" afterPath="$PROJECT_DIR$/spring-boot-config-server/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-config-server/src/main/java/com/spring/cloud/ConfigServerApplication.java" afterPath="$PROJECT_DIR$/spring-boot-config-server/src/main/java/com/spring/cloud/ConfigServerApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-config-server/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/spring-boot-config-server/src/main/resources/application.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-eureka-server/pom.xml" afterPath="$PROJECT_DIR$/spring-boot-eureka-registrycenter/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-eureka-server/src/main/java/com/spring/cloud/EurekaserverApplication.java" afterPath="$PROJECT_DIR$/spring-boot-eureka-registrycenter/src/main/java/com/spring/cloud/EurekaserverApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-eureka-server/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/spring-boot-eureka-registrycenter/src/main/resources/application.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-eureka-server/src/test/java/com/spring/cloud/AppTest.java" afterPath="$PROJECT_DIR$/spring-boot-eureka-productor/src/test/java/com/spring/cloud/AppTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-service-customer-feign/pom.xml" afterPath="$PROJECT_DIR$/spring-boot-eureka-customer-feign/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-service-customer-feign/src/main/java/com/spring/cloud/FeignCustomerApplication.java" afterPath="$PROJECT_DIR$/spring-boot-eureka-customer-feign/src/main/java/com/spring/cloud/FeignCustomerApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-service-customer-feign/src/main/java/com/spring/cloud/controller/HelloControler.java" afterPath="$PROJECT_DIR$/spring-boot-eureka-customer-feign/src/main/java/com/spring/cloud/controller/HelloControler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-service-customer-feign/src/main/java/com/spring/cloud/service/SchedualServiceHi.java" afterPath="$PROJECT_DIR$/spring-boot-eureka-customer-feign/src/main/java/com/spring/cloud/service/SchedualServiceHi.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-service-customer-feign/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/spring-boot-eureka-customer-feign/src/main/resources/application.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-service-customer-feign/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/spring-boot-eureka-customer-feign/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-service-customer-feign/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/spring-boot-eureka-customer-feign/src/main/webapp/index.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-service-customer-ribbon/pom.xml" afterPath="$PROJECT_DIR$/spring-boot-eureka-customer-ribbon/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-service-customer-ribbon/src/main/java/com/spring/cloud/RibbonCustomerApplication.java" afterPath="$PROJECT_DIR$/spring-boot-eureka-customer-ribbon/src/main/java/com/spring/cloud/RibbonCustomerApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-service-customer-ribbon/src/main/java/com/spring/cloud/controller/HelloControler.java" afterPath="$PROJECT_DIR$/spring-boot-eureka-customer-ribbon/src/main/java/com/spring/cloud/controller/HelloControler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-service-customer-ribbon/src/main/java/com/spring/cloud/service/HelloService.java" afterPath="$PROJECT_DIR$/spring-boot-eureka-customer-ribbon/src/main/java/com/spring/cloud/service/HelloService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-service-customer-ribbon/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/spring-boot-eureka-customer-ribbon/src/main/resources/application.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-service-customer-ribbon/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/spring-boot-eureka-customer-ribbon/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-service-customer-ribbon/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/spring-boot-eureka-customer-ribbon/src/main/webapp/index.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-service-productor-eureka/pom.xml" afterPath="$PROJECT_DIR$/spring-boot-eureka-productor/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-service-productor-eureka/src/main/java/com/spring/cloud/ServiceHiApplication.java" afterPath="$PROJECT_DIR$/spring-boot-eureka-productor/src/main/java/com/spring/cloud/ServiceHiApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-service-productor-eureka/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/spring-boot-eureka-productor/src/main/resources/application.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-service-productor-eureka/src/test/java/com/spring/cloud/AppTest.java" afterPath="$PROJECT_DIR$/spring-boot-eureka-registrycenter/src/test/java/com/spring/cloud/AppTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-service-zuul/pom.xml" afterPath="$PROJECT_DIR$/spring-boot-zuul/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-service-zuul/src/main/java/com/spring/cloud/ZuulApplication.java" afterPath="$PROJECT_DIR$/spring-boot-zuul/src/main/java/com/spring/cloud/ZuulApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/trans-service-zuul/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/spring-boot-zuul/src/main/resources/application.properties" />
     </list>
+    <ignored path="$PROJECT_DIR$/.idea/libraries/" />
     <ignored path="$PROJECT_DIR$/spring-boot-eureka-registrycenter/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-config-server/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-zuul/target/" />
@@ -242,6 +187,36 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4425">
+              <caret line="189" column="38" lean-forward="true" selection-start-line="189" selection-start-column="38" selection-end-line="189" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Maven__xpp3_xpp</find>
+      <find>Maven__xpp3_xpp3_min_1_1_4c</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -250,11 +225,24 @@
       <projects_view />
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="72" />
+    <option name="y" value="18" />
+    <option name="width" value="1400" />
+    <option name="height" value="820" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -282,6 +270,21 @@
             <path>
               <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-eureka-registrycenter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-zuul" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -452,46 +455,63 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511946384078</updated>
-      <workItem from="1511946385718" duration="54000" />
+      <workItem from="1511946385718" duration="262000" />
+      <workItem from="1511946658036" duration="491000" />
     </task>
+    <task id="LOCAL-00001" summary="修改项目名称">
+      <created>1511946516476</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1511946516476</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修改项目名称">
+      <created>1511946546803</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1511946546803</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54000" />
+    <option name="totallyTimeSpent" value="753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32896462" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32896462" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,9 +520,55 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改项目名称" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改项目名称" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/spring-boot-eureka-registrycenter/spring-boot-eureka-registrycenter.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-eureka-registrycenter/spring-boot-eureka-registrycenter.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4425">
+          <caret line="189" column="38" lean-forward="true" selection-start-line="189" selection-start-column="38" selection-end-line="189" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
