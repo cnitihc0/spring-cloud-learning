@@ -8,11 +8,38 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-config-client" />
         <module name="spring-boot-config-server" />
-        <module name="spring-boot-eureka-customer-feign" />
-        <module name="spring-boot-eureka-customer-ribbon" />
-        <module name="spring-boot-eureka-productor" />
-        <module name="spring-boot-eureka-registrycenter" />
         <module name="spring-boot-zuul" />
+        <module name="spring-cloud-api-gateway-zuul" />
+        <module name="spring-cloud-config-client" />
+        <module name="spring-cloud-config-server" />
+        <module name="spring-cloud-eureka-customer-feign" />
+        <module name="spring-cloud-eureka-customer-ribbon" />
+        <module name="spring-cloud-eureka-productor" />
+        <module name="spring-cloud-eureka-registrycenter" />
+      </profile>
+      <profile name="Annotation profile for spring-boot-eureka-customer-feign" enabled="true">
+        <sourceOutputDir name="../spring-boot-eureka-customer-feign/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../spring-boot-eureka-customer-feign/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-eureka-customer-feign" />
+      </profile>
+      <profile name="Annotation profile for spring-boot-eureka-customer-ribbon" enabled="true">
+        <sourceOutputDir name="../spring-boot-eureka-customer-ribbon/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../spring-boot-eureka-customer-ribbon/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-eureka-customer-ribbon" />
+      </profile>
+      <profile name="Annotation profile for spring-boot-eureka-productor" enabled="true">
+        <sourceOutputDir name="../spring-boot-eureka-productor/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../spring-boot-eureka-productor/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-eureka-productor" />
+      </profile>
+      <profile name="Annotation profile for spring-cloud-learning" enabled="true">
+        <sourceOutputDir name="../spring-boot-eureka-registrycenter/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../spring-boot-eureka-registrycenter/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-eureka-registrycenter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +50,13 @@
       <module name="spring-boot-eureka-productor" target="1.8" />
       <module name="spring-boot-eureka-registrycenter" target="1.8" />
       <module name="spring-boot-zuul" target="1.8" />
+      <module name="spring-cloud-api-gateway-zuul" target="1.8" />
+      <module name="spring-cloud-config-client" target="1.8" />
+      <module name="spring-cloud-config-server" target="1.8" />
+      <module name="spring-cloud-eureka-customer-feign" target="1.8" />
+      <module name="spring-cloud-eureka-customer-ribbon" target="1.8" />
+      <module name="spring-cloud-eureka-productor" target="1.8" />
+      <module name="spring-cloud-eureka-registrycenter" target="1.8" />
       <module name="spring-cloud-learning" target="1.8" />
     </bytecodeTargetLevel>
   </component>

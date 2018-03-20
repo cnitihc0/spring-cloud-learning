@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-config-client/spring-boot-config-client.iml" filepath="$PROJECT_DIR$/spring-boot-config-client/spring-boot-config-client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-config-server/spring-boot-config-server.iml" filepath="$PROJECT_DIR$/spring-boot-config-server/spring-boot-config-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-eureka-customer-feign/spring-boot-eureka-customer-feign.iml" filepath="$PROJECT_DIR$/spring-boot-eureka-customer-feign/spring-boot-eureka-customer-feign.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-eureka-customer-ribbon/spring-boot-eureka-customer-ribbon.iml" filepath="$PROJECT_DIR$/spring-boot-eureka-customer-ribbon/spring-boot-eureka-customer-ribbon.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-eureka-productor/spring-boot-eureka-productor.iml" filepath="$PROJECT_DIR$/spring-boot-eureka-productor/spring-boot-eureka-productor.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-eureka-registrycenter/spring-boot-eureka-registrycenter.iml" filepath="$PROJECT_DIR$/spring-boot-eureka-registrycenter/spring-boot-eureka-registrycenter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-zuul/spring-boot-zuul.iml" filepath="$PROJECT_DIR$/spring-boot-zuul/spring-boot-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-api-gateway-zuul/spring-cloud-api-gateway-zuul.iml" filepath="$PROJECT_DIR$/spring-cloud-api-gateway-zuul/spring-cloud-api-gateway-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-config-client/spring-cloud-config-client.iml" filepath="$PROJECT_DIR$/spring-cloud-config-client/spring-cloud-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-config-server/spring-cloud-config-server.iml" filepath="$PROJECT_DIR$/spring-cloud-config-server/spring-cloud-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-customer-feign/spring-cloud-eureka-customer-feign.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-customer-feign/spring-cloud-eureka-customer-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-customer-ribbon/spring-cloud-eureka-customer-ribbon.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-customer-ribbon/spring-cloud-eureka-customer-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-productor/spring-cloud-eureka-productor.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-productor/spring-cloud-eureka-productor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-registrycenter/spring-cloud-eureka-registrycenter.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-registrycenter/spring-cloud-eureka-registrycenter.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-learning.iml" filepath="$PROJECT_DIR$/spring-cloud-learning.iml" />
     </modules>
   </component>
