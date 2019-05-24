@@ -9,10 +9,10 @@
         <module name="spring-cloud-config-client" />
         <module name="spring-cloud-eureka-registrycenter" />
         <module name="spring-cloud-api-gateway-zuul" />
-        <module name="spring-cloud-eureka-productor" />
         <module name="spring-cloud-eureka-customer-ribbon" />
         <module name="spring-cloud-eureka-customer-feign" />
         <module name="spring-cloud-config-server" />
+        <module name="spring-cloud-eureka-productor" />
       </profile>
     </annotationProcessing>
   </component>

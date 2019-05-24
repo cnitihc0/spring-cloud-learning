@@ -7,3 +7,4 @@ spring-cloud-eureka-customer-ribbon/target/
 spring-cloud-eureka-productor/src/main/java/com/spring/cloud/controller/
 spring-cloud-eureka-productor/target/
 spring-cloud-eureka-registrycenter/target/
+/.idea/*
