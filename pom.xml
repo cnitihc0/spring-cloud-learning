@@ -9,13 +9,13 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>spring-boot-eureka-registrycenter</module>
-        <module>spring-boot-eureka-customer-ribbon</module>
-        <module>spring-boot-eureka-customer-feign</module>
-        <module>spring-boot-eureka-productor</module>
-        <module>spring-boot-config-server</module>
-        <module>spring-boot-config-client</module>
-        <module>spring-boot-zuul</module>
+        <module>spring-cloud-eureka-registrycenter</module>
+        <module>spring-cloud-eureka-customer-ribbon</module>
+        <module>spring-cloud-eureka-customer-feign</module>
+        <module>spring-cloud-eureka-productor</module>
+        <module>spring-cloud-config-server</module>
+        <module>spring-cloud-config-client</module>
+        <module>spring-cloud-api-gateway-zuul</module>
     </modules>
 
     <properties>
@@ -31,6 +31,24 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+            <exclusions>
+                <exclusion>
+                    <artifactId>guice</artifactId>
+                    <groupId>com.google.inject</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <!-- spring boot test-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
     <dependencyManagement>
         <dependencies>
             <dependency>

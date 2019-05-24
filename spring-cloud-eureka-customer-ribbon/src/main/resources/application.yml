@@ -1,0 +1,67 @@
+server:
+  port: 8764
+
+spring:
+  application:
+    name: service-ribbon
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+
+## 断路器
+hystrix:
+  command:
+    default:
+    ## execution配置控制的是hystrixcommand.run() 的执行
+      execution:
+        isolation:
+          thread:
+            ## 设置hystrixcommand.run()执行的超时时间，单位毫秒
+            timeoutIn-Milliseconds: 5000
+            ## 设置hystrixcommand.run()执行超时时是否将它中断，默认true
+            interruptOnTimeout: true
+            # 设置hystrixcommand.run()执行被取消时是否将它中断，默认true
+            interruptOnCancel: true
+          ## 设置hystrixcommand.run()执行的隔离策略，默认THREAD线程池,可选值SEMAPHORE信号量
+          strategy: THREAD
+          ## 设置hystrixcommand.run()是否启用超时
+          timeout:
+              enabled: false
+          ## 当hystrixcommand隔离策略使用信号量时，该属性用来配置信号量的大小（并发请求数），当最大并发请求数达到该设置值时，后续的请求将会被拒绝
+          semaphore:
+            maxConcurrentRequests: 10
+      fallback:
+        isolation:
+          semphore:
+            ## 设置从调用线程中允许hystrixcommand.getFallback()方法执行的最大并发请求数，当达到最大并发请求数时，后续的请求将会被拒绝并抛出异常
+            maxConcurrentRequests: 10
+        ## 该属性用来设置服务降级策略是否启用，默认true
+        enable: true
+      ## 用来控制 HystrixCircuitBreaker的行为
+      circuitBreaker:
+        ## 该属性用来设置当服务命令失败时，是否使用断路器来跟踪其健康指标和熔断请求
+        enabled: true
+        ## 该属性用来设置在滚动时间窗中，断路器熔断的最小请求数，如果滚动时间窗（默认10秒）内仅收到了19个请求，即使19个请求都失败了，断路器也不会打开
+        requestVolumeThreshold: 20
+        ## 该属性用来设置当断路器打开之后的休眠时间窗。休眠时间窗结束之后，会将断路器置为半开状态，尝试熔断的请求命令，如果依旧失败就将失眠断路器继续设置为打开状态，如果成功就设置为关闭状态
+        sleepWindowInMilliseconds: 5000
+        ## 该属性用来设置断路器打开的错误百分比条件，默认值为5000的情况下，如果在滚动时间窗中，在请求的数量超过circuitBreaker.requestVolumeThreshold阈值的前提下，如果错误请求数的百分比超过50，就将断路器设置为打开状态，否则就设置为关闭状态
+        errorThresholdPercentage: 50
+        ## 如果该属性设置为true，断路器将强制进入打开状态，它会拒绝所有请求，该属性优先于circuitBreaker.forceClosed
+        forceOpen: false
+        ## 如果该属性设置为false,它会接收所有请求，如果circuitBreaker.forceOpen属性为true，该属性不会生效
+        forceClosed: false
+      ## 下面属性均与hystrixcommand和hystrixObservableCommand执行中捕获的指标信息有关
+      metrics:
+        rollingStats:
+          timeInMilliseconds: 10000
+
+
+
+
+
+
+

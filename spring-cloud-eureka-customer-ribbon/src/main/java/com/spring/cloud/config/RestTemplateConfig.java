@@ -1,0 +1,22 @@
+package com.spring.cloud.config;
+
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
+import org.springframework.cloud.netflix.ribbon.RibbonClient;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.client.RestTemplate;
+
+/**
+ * RestTemplate Config
+ */
+@Configuration
+@RibbonClient(name = "ribbonClient", configuration = RibbonConfig.class)
+public class RestTemplateConfig {
+
+    @Bean(name = "restTemplate")
+    @LoadBalanced
+    public RestTemplate restTemplate() {
+        return new RestTemplate();
+    }
+
+}

@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+spring-cloud-api-gateway-zuul/target/
+spring-cloud-config-client/target/
+spring-cloud-config-server/target/
+spring-cloud-eureka-customer-feign/target/
+spring-cloud-eureka-customer-ribbon/target/
+spring-cloud-eureka-productor/src/main/java/com/spring/cloud/controller/
+spring-cloud-eureka-productor/target/
+spring-cloud-eureka-registrycenter/target/

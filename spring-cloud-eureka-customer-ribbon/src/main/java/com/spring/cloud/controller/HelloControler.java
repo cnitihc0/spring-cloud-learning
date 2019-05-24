@@ -1,13 +1,11 @@
 package com.spring.cloud.controller;
 
+import com.netflix.hystrix.strategy.concurrency.HystrixRequestContext;
 import com.spring.cloud.service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.client.loadbalancer.LoadBalanced;
-import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
 
 /**
  * @author mashaobo
@@ -16,17 +14,25 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class HelloControler {
 
-    @Bean
-    @LoadBalanced
-    RestTemplate restTemplate() {
-        return new RestTemplate();
-    }
-
     @Autowired
     HelloService helloService;
-    @RequestMapping(value = "/hi")
-    public String hi(@RequestParam String name){
-        return helloService.hiService(name);
+
+    @RequestMapping(value = "/syn")
+    public String syn(@RequestParam String name){
+        return helloService.hystrixCommandSyn(name);
+    }
+
+    @RequestMapping(value = "/asy")
+    public String asy(@RequestParam String name){
+        helloService.hystrixCommandAsy(name);
+        return name;
+    }
+
+    @RequestMapping(value = "/cache")
+    public String cache(@RequestParam String name){
+        HystrixRequestContext.initializeContext();
+        helloService.hystrixCommandCache(name);
+        return helloService.hystrixCommandCache(name);
     }
 
 
